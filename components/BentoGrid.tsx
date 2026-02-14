@@ -131,7 +131,7 @@ const BentoGrid: React.FC<BentoProps> = ({ onOpenTerminal, onNavigate }) => {
                             {BIO_SUMMARY}
                         </p>
                         <button onClick={() => onNavigate(PageView.BIO)} className="mt-2 text-xs text-hud-cyan hover:underline font-mono">
-                            > VIEW FULL DOSSIER
+                            {'> VIEW FULL DOSSIER'}
                         </button>
                     </div>
                 ) : (
@@ -144,7 +144,7 @@ const BentoGrid: React.FC<BentoProps> = ({ onOpenTerminal, onNavigate }) => {
                             </div>
                         ))}
                          <button onClick={() => onNavigate(PageView.BIO)} className="text-xs text-hud-cyan hover:underline font-mono pl-4">
-                            > VIEW FULL TIMELINE
+                            {'> VIEW FULL TIMELINE'}
                         </button>
                     </div>
                 )}
@@ -243,7 +243,7 @@ const BentoGrid: React.FC<BentoProps> = ({ onOpenTerminal, onNavigate }) => {
          <div className="h-full relative pointer-events-none">
             <GenealogyGraph allowFullScreen={false} />
             <div className="absolute bottom-4 right-4 bg-black/80 px-2 py-1 rounded text-xs text-hud-cyan font-mono z-10">
-                > EXPAND GRAPH
+                {'> EXPAND GRAPH'}
             </div>
          </div>
       </BentoCard>
@@ -287,7 +287,7 @@ const BentoGrid: React.FC<BentoProps> = ({ onOpenTerminal, onNavigate }) => {
       <BentoCard className="md:col-span-1 md:row-span-1 group cursor-pointer" title="System Root" icon={<TerminalIcon size={14}/>}>
          <div onClick={onOpenTerminal} className="h-full flex flex-col items-center justify-center text-center hover:bg-green-900/10 transition-colors rounded">
             <TerminalIcon size={40} className="text-gray-600 group-hover:text-green-500 mb-2 transition-colors" />
-            <span className="font-mono text-xs text-gray-500 group-hover:text-green-500">> ACCESS TERMINAL</span>
+            <span className="font-mono text-xs text-gray-500 group-hover:text-green-500">{'> ACCESS TERMINAL'}</span>
          </div>
       </BentoCard>
 

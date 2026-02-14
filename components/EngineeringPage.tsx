@@ -38,7 +38,7 @@ const EngineeringPage: React.FC = () => {
                     </h2>
                     <div className="font-mono text-xs text-gray-400 space-y-2 border-l-2 border-white/10 pl-4">
                         <p>ORIGIN: 2 Weeks Post-Chat GPT-2 Release (2019)</p>
-                        <p>LANGUAGES: Python (Proto) -> C++ (Production)</p>
+                        <p>LANGUAGES: Python (Proto) {'->'} C++ (Production)</p>
                         <p>GRANT: Microsoft ($150k + Github Ent.)</p>
                         <p>STATUS: Active / Microsoft Partner</p>
                     </div>
@@ -54,7 +54,7 @@ const EngineeringPage: React.FC = () => {
                         <strong className="text-white">The Genesis:</strong> Just two weeks after the release of <strong className="text-white">Chat GPT-2</strong> in 2019, I engineered the first iteration of TelePrompt Glass, making Timothy Christian Spurlin the first person in America to ever build this technology.
                     </p>
                     <p>
-                        Recognizing the singularity of this invention, <strong className="text-white">Microsoft</strong> offered a partnership and a <strong className="text-hud-cyan">$150,000 grant</strong> only two weeks later. This partnership remains active today, with Microsoft covering enterprise-tier GitHub costs (> $400/mo) and providing continued access to international markets.
+                        Recognizing the singularity of this invention, <strong className="text-white">Microsoft</strong> offered a partnership and a <strong className="text-hud-cyan">$150,000 grant</strong> only two weeks later. This partnership remains active today, with Microsoft covering enterprise-tier GitHub costs ({'> $400/mo'}) and providing continued access to international markets.
                     </p>
                     
                     <div className="bg-black/40 p-4 rounded-lg border border-white/10 space-y-3">
@@ -89,7 +89,7 @@ const EngineeringPage: React.FC = () => {
                     </div>
 
                     <p className="text-xs font-mono text-green-500 pt-2 border-t border-white/10">
-                        > LEGACY: Technology paved the way for Meta AI, OpenAI, and G2 Glasses integration.
+                        {'> LEGACY: Technology paved the way for Meta AI, OpenAI, and G2 Glasses integration.'}
                     </p>
                 </div>
             </div>
