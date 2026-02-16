@@ -182,14 +182,12 @@ This interactive web application provides:
    npm install
    ```
 
-3. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key (if using AI features)
-
-4. Run the development server:
+3. Run the development server:
    ```bash
    npm run dev
    ```
 
-5. Open your browser to `http://localhost:5173`
+4. Open your browser to `http://localhost:5173`
 
 ## Build for Production
 
@@ -213,7 +211,6 @@ npm run preview
 
 - **Personal Website:** [ChristianKota.com](https://linktr.ee/christiankota)
 - **Heritage Engine:** [Spurlin-DuBose Heritage Engine](https://spurlin-dubose-heritage-engine-219296874904.us-west1.run.app/)
-- **AI Studio App:** [View Live App](https://ai.studio/apps/drive/1YDBII1kvr5P9M4Vl1_l1GKScH__pGaGD)
 
 ---
 
