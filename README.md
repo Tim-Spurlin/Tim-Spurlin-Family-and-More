@@ -1,7 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # Tim-Spurlin-Family-and-More
 
 A comprehensive digital chronicle of Timothy Christian Spurlin's life, ancestry, and family heritage. This interactive application documents the complete family tree, life journey, career achievements, and ancestral stories spanning from modern times back to 1502.
